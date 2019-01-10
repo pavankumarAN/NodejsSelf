@@ -1,0 +1,1 @@
+Hai egotist welcome to the nodejs course. Your directory is /home/egotist
