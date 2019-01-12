@@ -6,10 +6,10 @@ var command = process.argv[2];
 
 console.log(`command : ${command}`);
 
-if(command === 'Pavan') {
+if(command.toLowerCase() === 'Pavan'.toLowerCase()) {
     console.log(`Welcome owner of the laptop`);
 }
-else if(command!=='Pavan'.toLocaleLowerCase() && command!==undefined) {
+else if(command.toLowerCase()!=='Pavan'.toLowerCase() && command!==undefined) {
     console.log(`Welcome gest user`);
 }
 else {
